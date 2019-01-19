@@ -6,6 +6,7 @@ function makeMadLib(){
     var noun1Input = document.getElementById('noun-1');
     var noun2Input = document.getElementById('noun-2');
     var verb1Input = document.getElementById('verb-1');
+    var noun3Input = document.getElementById('noun-3');
 
 //get the values of all the word inputs
     var adjective1 = adjective1Input.value;
@@ -13,9 +14,10 @@ function makeMadLib(){
     var noun1 = noun1Input.value;
     var noun2 = noun2Input.value;
     var verb1 = verb1Input.value;
+    var noun3 = noun3Input.value;
 
 //make a madlib string with speedy, fast, tortoise, race, watch.
-    var story = 'There once was a ' +adjective1 + ' hare who bragged about how '+adjective2+ ' he could run. Tired of hearing him boast, Slow and Steady, the ' +noun1+', challenged him to a '+noun2+'. All the animals in the forest gathered to '+ verb1+".";
+    var story = 'There once was a ' +adjective1 + ' hare who bragged about how '+adjective2+ ' he could run. Tired of hearing him boast, Slow and Steady, the ' +noun1+', challenged him to a '+noun2+'. All the animals in the forest gathered '+ verb1+'. But ' + noun1 + ' had a trick up his sleeve, and that trick was a ' + noun3 + '.... TO BE CONTINUED....';
 
 
 //display the madlib string

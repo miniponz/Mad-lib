@@ -1,0 +1,21 @@
+body{
+    font-family: "Comic Sans MS";
+    background-color: aquamarine;
+    color: limegreen;
+    text-align: center;
+}
+h1{
+    color: limegreen;
+}
+
+label{
+    display: block;
+    padding: 5px;
+}
+
+button{
+    color: black;
+    background: limegreen;
+    padding: 5px;
+    font-family: "Comic Sans MS";
+}
